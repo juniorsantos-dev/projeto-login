@@ -20,7 +20,24 @@
             <div id="formulario">
                 <h1 >Login</h1>
             <p>Seja bem vindo novamente, Faça login para acessar o seu perfil</p>
+                    <form action="login.php" method="post">
+                        <div class="campo">
+                           
+                            <input type="email" name="ilogin" placeholder="seu email">
+                            <label for="ilogin">login</label>
+                        </div>
 
+                        <div class="campo">
+                            
+                            <input type="password" name="isenha" placeholder="sua senha">
+                            <label for="isenha">senha</label>
+                        </div>
+
+                        <input type="submit" value="Entrar">
+                        <a href="esqueci.html" class="botao">
+                            esqueci a senha <i class="material-icons">mail </i>
+                        </a>
+                    </form>
             </div>
 
         </section>
