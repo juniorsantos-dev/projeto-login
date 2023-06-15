@@ -43,6 +43,8 @@ section#login{
     width: 250px;
     height: 500px;
     border-radius: 20px;
+
+    transition: width 1s, height 1s;
     
 }
 
@@ -59,3 +61,4 @@ section#login > div#formulario{
     display: block;
     padding: 10px;
 }
+
